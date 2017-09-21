@@ -1,11 +1,5 @@
 # Integração Contínua com Bitbucket Pipelines
 
-Finalmente, mais um post para a série: [Integração Contínua]({% post_url 2016-03-25-falando-sobre-integracao-continua-e-qualidade-de-desenvolvimento %}).
-
-A correria anda tornando cada vez mais impossível estudar a quantidade de ferramentas que temos por aí, mas aos poucos o projeto vai caminhando.
-
-No [último post]({% post_url 2016-09-09-integracao-continua-jenkins %}), prometi que o artigo a seguir seria sobre [PHPCI](https://www.phptesting.org/), mas o **Bitbucket** liberou para todos os **Pipelines** - antes estava restrito a apenas alguns desenvolvedores e somente para repositórios que não fizessem parte de um time ou projeto - e foi a ferramenta de CI escolhida para a equipe do qual faço parte na [BêeCambio](https://www.beecambio.com.br), resolvi falar sobre ela antes.
-
 <img src="/assets/pipelines/pipelines.png" class="img img-responsive img-thumbnail pull-right" alt="Bitbucket Pipelines Logo" title="Pipelines" width="400" height="335">
 
 Parando de enrolação, vamos ao que interessa, [Pipelines](https://confluence.atlassian.com/bitbucket/bitbucket-pipelines-792496469.html)!

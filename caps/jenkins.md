@@ -1,7 +1,5 @@
 # Integração Contínua com Jenkins
 
-Voltando a nossa série sobre [Integração Contínua]({% post_url 2016-03-25-falando-sobre-integracao-continua-e-qualidade-de-desenvolvimento %}), vou apresentar agora a você o Jenkins.
-
 Acho que simplesmente, o mais famoso e utilizado de todos - e também, o mais complicado de se manter.
 
 <img src="/assetsjenkins/00-logo.png" class="img img-responsive img-thumbnail pull-right" alt="Jenkins Logo" title="Jenkins" width="185" height="256">
