@@ -1,11 +1,5 @@
----
-layout: post
-author: mrprompt
-comments: true
-date: 2016-12-04 00:00:01+00:00
-slug: integracao-continua-pipelines
-title: Integração Contínua com Bitbucket Pipelines
----
+# Integração Contínua com Bitbucket Pipelines
+
 Finalmente, mais um post para a série: [Integração Contínua]({% post_url 2016-03-25-falando-sobre-integracao-continua-e-qualidade-de-desenvolvimento %}).
 
 A correria anda tornando cada vez mais impossível estudar a quantidade de ferramentas que temos por aí, mas aos poucos o projeto vai caminhando.

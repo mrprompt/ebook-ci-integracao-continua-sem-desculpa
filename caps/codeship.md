@@ -1,13 +1,6 @@
----
-layout: post
-author: mrprompt
-comments: true
-date: 2016-04-02 12:21:01+00:00
-slug: integracao-continua-codeship
-title: Integração Contínua com CodeShip
----
+# Integração Contínua com CodeShip
 
-<img src="{{ site.baseurl }}/upload/ci/codeship/codeship.png" class="img img-responsive pull-right" alt="Codeship Logo" title="Codeship" width="250">
+<img src="/assetscodeship/codeship.png" class="img img-responsive pull-right" alt="Codeship Logo" title="Codeship" width="250">
 Continuando a [série sobre Integração Contínua]({% post_url 2016-03-25-falando-sobre-integracao-continua-e-qualidade-de-desenvolvimento %}), partimos
 agora para o [CodeShip](http://www.codeship.com), que assim como o [Travis-CI]({% post_url 2016-03-26-integracao-continua-travis-ci %}), também é uma
 ótima ferramenta online para implantar Integração Contínua em seus projetos.
@@ -41,7 +34,7 @@ mesmo com um número limitado de builds mensais para estes - no momento em que e
 Uma funcionalidade muito interessante é a possibilidade de rodar testes em paralelo, para agilizar o processo de build, porém, esta
 somente está disponível para contas pagas - mas você pode testar por duas semanas sem compromisso ;)
 
-<img src="{{ site.baseurl }}/upload/ci/codeship/codeship-parallelci.png" class="img img-responsive" alt="Codeship - Paralell Build" title="Codeship - Parallel">
+<img src="/assetscodeship/codeship-parallelci.png" class="img img-responsive" alt="Codeship - Paralell Build" title="Codeship - Parallel">
 
 ### <a name="cadastro"></a> Cadastro
 
@@ -56,41 +49,41 @@ Após efetuar o cadastro, você cai direto na DashBoard, onde ficam listados os 
 somente é apresentada uma tela de boas vindas e adição de projeto.
 
 Na imagem abaixo, mostro a tela inicial, com builds com sucesso e outros com falhas para você ver:
-<img src="{{ site.baseurl }}/upload/ci/codeship/shot-codeship-dashboard.png" class="img img-responsive" alt="Codeship - DashBoard" title="Codeship - DashBoard">
+<img src="/assetscodeship/shot-codeship-dashboard.png" class="img img-responsive" alt="Codeship - DashBoard" title="Codeship - DashBoard">
 <small>Nenhum projeto foi sacrificado ou sofreu crueldades para produzir esta imagem.</small>
 
 ### <a name="configurando"></a> Configurando
 
 A configuração do **CodeShip** é toda por sua interface, que aliás, é muito simples e resumida, sem muitas surpresas.
 O primeiro passo, é selecionar o ambiente a ser utilizado, basicamente, você seleciona a plataforma e ele te da algum exemplo de código, como abaixo.
-<img src="{{ site.baseurl }}/upload/ci/codeship/shot-codeship-environments.png"  class="img img-responsive" alt="Codeship - Configurando 1" title="Codeship - Environment">
+<img src="/assetscodeship/shot-codeship-environments.png"  class="img img-responsive" alt="Codeship - Configurando 1" title="Codeship - Environment">
 
 Após a escolha, é possível editar e dar uma melhorada no ambiente. Nas contas pagas, é possível definir diversos "pipelines", ou seja, rodar diversas métricas em
 paralelo, para melhorar a performance. Testei em um projeto e não tive um ganho muito significativo pra compensar o uso pra falar a verdade, mas creio que isso
 seja um problema na minha arquitetura.
-<img src="{{ site.baseurl }}/upload/ci/codeship/shot-codeship-tests.png"  class="img img-responsive" alt="Codeship - Configurando 2" title="Codeship - Environment">
+<img src="/assetscodeship/shot-codeship-tests.png"  class="img img-responsive" alt="Codeship - Configurando 2" title="Codeship - Environment">
 <small>É possível utilizar algumas variáveis de ambiente pré-definidas</small>
 
 Existem ainda as diversas integrações para configurar o deploy automatizado, como **AWS**, **Digital Ocean** e etc., assim como também é possível você
 rodar seu próprio script, ou mesmo o **Curl** para enviar uma chamada a outro serviço, como é o meu caso com o **DeployBot** - esse eu prentendo falar em um outro
 artigo futuro.
-<img src="{{ site.baseurl }}/upload/ci/codeship/shot-codeship-deploy.png"  class="img img-responsive" alt="Codeship - Configurando 3" title="Codeship - Environment">
+<img src="/assetscodeship/shot-codeship-deploy.png"  class="img img-responsive" alt="Codeship - Configurando 3" title="Codeship - Environment">
 
 Finalizando a configuração do **Deploy**, você também pode configurar notificações:
 <div class="row">
     <div class="col-sm-12 col-lg-6">
-        <img src="{{ site.baseurl }}/upload/ci/codeship/shot-codeship-hooks.png"  class="img img-responsive" alt="Codeship - Configurando 3" title="Codeship - Environment">
+        <img src="/assetscodeship/shot-codeship-hooks.png"  class="img img-responsive" alt="Codeship - Configurando 3" title="Codeship - Environment">
     </div>
     <div class="col-sm-12 col-lg-6">
-        <img src="{{ site.baseurl }}/upload/ci/codeship/shot-codeship-hooks-2.png"  class="img img-responsive" alt="Codeship - Configurando 3" title="Codeship - Environment">
+        <img src="/assetscodeship/shot-codeship-hooks-2.png"  class="img img-responsive" alt="Codeship - Configurando 3" title="Codeship - Environment">
     </div>
 </div>
 
 Assim como o **Travis-CI** e outros serviços, também é possível configurar as próprias variáveis de ambiente, para serem utilizadas durante o processo:
-<img src="{{ site.baseurl }}/upload/ci/codeship/shot-codeship-config-environment.png" class="img img-responsive" alt="Codeship - Configurando 3" title="Codeship - Environment">
+<img src="/assetscodeship/shot-codeship-config-environment.png" class="img img-responsive" alt="Codeship - Configurando 3" title="Codeship - Environment">
 
 E se tudo der certo - ou mesmo se der tudo errado -, você pode conferir os detalhes do build:
-<img src="{{ site.baseurl }}/upload/ci/codeship/shot-codeship-success.png" class="img img-responsive" alt="Codeship - Configurando 3" title="Codeship - Environment">
+<img src="/assetscodeship/shot-codeship-success.png" class="img img-responsive" alt="Codeship - Configurando 3" title="Codeship - Environment">
 
 #### Bônus Track - Exemplos de Configuração
 
@@ -190,7 +183,7 @@ Sua documentação é simples e vai direto ao ponto, durante meus testes, foi re
 definir o ambiente de testes e o processo de publicação.
 
 Como não poderia deixar, ele também possibilita o uso dos **Badges** - todo programador gosta de colocar um frufru no *README*, admita.
-<img src="{{ site.baseurl }}/upload/ci/codeship/shot-codeship-badge.png" class="img img-responsive" alt="Codeship - Badge" title="Codeship - Badge">
+<img src="/assetscodeship/shot-codeship-badge.png" class="img img-responsive" alt="Codeship - Badge" title="Codeship - Badge">
 
 Então é isso, o **CodeShip** é mais que recomendado para você que quer iniciar um processo de Integração ou Entrega contínua em seus
 projetos, mas não quer perder tempo com arquivos de configuração, configuração de servidores ou longos processos.
