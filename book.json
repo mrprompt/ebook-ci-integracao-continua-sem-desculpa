@@ -1,3 +1,5 @@
-"structure": {
-  "readme":"introducao.md"
+{
+  "title": "Integração Contínua Sem Desculpas",
+  "description": "Um guia simples e objetivo de como implementar as principais ferramentas de CI do mercado.",
+  "language": "pt-br"
 }
