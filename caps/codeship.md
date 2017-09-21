@@ -1,9 +1,6 @@
 # Integração Contínua com CodeShip
 
 <img src="/assetscodeship/codeship.png" class="img img-responsive pull-right" alt="Codeship Logo" title="Codeship" width="250">
-Continuando a [série sobre Integração Contínua]({% post_url 2016-03-25-falando-sobre-integracao-continua-e-qualidade-de-desenvolvimento %}), partimos
-agora para o [CodeShip](http://www.codeship.com), que assim como o [Travis-CI]({% post_url 2016-03-26-integracao-continua-travis-ci %}), também é uma
-ótima ferramenta online para implantar Integração Contínua em seus projetos.
 
 Mas ao contrário do [Travis-CI](https://www.travis-ci.org), o **CodeShip** nos permite adicionar repositórios privados sem custo algum - mas o limite
 é de 5 repositórios - assim como ilimitados repositórios de projetos de código fonte aberto.
