@@ -8,6 +8,3 @@ Ferramentas abordadas neste livro:
 - [Codeship](caps/codeship.md)
 - [Jenkins](caps/jenkins.md)
 - [Bitbucket Pipelines](caps/bitbucket-pipelines.md)
-
-### O Autor
-Thiago Paes - mrprompt@gmail.com
