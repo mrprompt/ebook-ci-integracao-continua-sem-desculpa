@@ -3,5 +3,10 @@
   "description": "Um guia simples e objetivo de como implementar as principais ferramentas de CI do mercado.",
   "language": "pt",
   "author": "Thiago Paes",
-  "plugins": ["toggle-chapters"]
+  "plugins": ["toggle-chapters", "ga"],
+  "pluginsConfig": {
+    "ga": {
+      "token": "UA-1337986-7"
+    }
+  }
 }
