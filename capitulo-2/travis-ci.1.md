@@ -9,3 +9,5 @@ múltiplas linguagens também é um grande atrativo.
 Com poucas linhas, é possível subir seu ambiente de testes e começar a testar seus projetos, assim como
 disparar gatilhos no caso de sucesso ou falhas. Fora o "badge" bacana que tu pode colocar no _README_ do
 projeto ;)
+
+<img src="assets/travis-ci.png" class="img img-responsive" alt="Travis-CI Screenshot">
