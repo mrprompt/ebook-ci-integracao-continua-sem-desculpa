@@ -1,21 +1,23 @@
 # Integração Contínua com Bitbucket Pipelines
 
-<img src="/assets/pipelines/pipelines.png" class="img img-responsive img-thumbnail pull-right" alt="Bitbucket Pipelines Logo" title="Pipelines" width="400" height="335">
+<img src="assets/pipelines.png" class="img img-responsive img-thumbnail pull-right" alt="Bitbucket Pipelines Logo" title="Pipelines" width="400" height="335">
 
 Parando de enrolação, vamos ao que interessa, [Pipelines](https://confluence.atlassian.com/bitbucket/bitbucket-pipelines-792496469.html)!
 
-- [Apresentação](#apresentacao)
-- [Instalação](#instalacao)
-- [Configurando](#configurando)
-    - [PHP](#configurando-php)
-    - [Nodejs](#configurando-nodejs)
-    - [Angularjs](#configurando-angularjs)
-    - [Ruby](#configurando-ruby)
-    - [Java](#configurando-java)
-    - [Trabalhando com múltiplos branchs](#configurando-multiplos-branchs)
-- [Prós & Contras](#pros-e-contras)
-- [Conclusão](#conclusao)
-- [Mais Informações](#mais-informacoes)
+- [Apresentação](#bibucket-pipelines.1.md)
+- [Instalação](bibucket-pipelines.2.md)
+- [Configurando](bibucket-pipelines.3.md)
+    - [PHP](bibucket-pipelines.4.md)
+    - [Nodejs](bibucket-pipelines.5.md)
+    - [Angularjs](bibucket-pipelines.6.md)
+    - [Ruby](bibucket-pipelines.7.md)
+    - [Java](bibucket-pipelines.8.md)
+    - [Trabalhando com múltiplos branchs](bibucket-pipelines.9.md)
+- [Containers auxiliares](bibucket-pipelines.10.md)
+- [Cache](bibucket-pipelines.11.md)
+- [Prós & Contras](bibucket-pipelines.12.md)
+- [Conclusão](bibucket-pipelines.13.md)
+- [Mais Informações](bibucket-pipelines.14.md)
 
 ### <a name="apresentacao"></a> Apresentação
 
@@ -25,18 +27,18 @@ O [Pipelines](https://confluence.atlassian.com/bitbucket/bitbucket-pipelines-792
 
 A instalação do Pipelines é bem simples, bastando que você habilite no menu lateral e siga os passos na tela. A instalação inicial, se divide em dois passos bem simples
 
-<img src="/assets/pipelines/00-menu-lateral.png" class="img img-responsive img-thumbnail text-center" alt="" title="" width="" height="">
+<img src="assets/00-menu-lateral.png" class="img img-responsive img-thumbnail text-center" alt="" title="" width="" height="">
 
 #### Passo 1
 Clicando no menu lateral, tem um pequeno slideshow apresentando o Pipelines e solicitando que você concorde com a instalação, já que ele vai criar um novo arquivo no seu projeto - não se preocupe com isso agora.
 
-<img src="/assets/pipelines/01-instalacao-passo-1.png" class="img img-responsive img-thumbnail" alt="" title="" width="" height="">
+<img src="assets/01-instalacao-passo-1.png" class="img img-responsive img-thumbnail" alt="" title="" width="" height="">
 
 #### Passo 2
 O segundo passo da instalação, é selecionar o ambiente que você pretende configurar, existem várias opções, cada uma irá apresentar um esqueleto bem simples de configuração para cada tipo de projeto, não se preocupe com o que aparecer na tela, futuramente você poderá editar este arquivo.
 
-<img src="/assets/pipelines/02-instalacao-passo-2.1.png" class="img img-responsive img-thumbnail" alt="" title="" width="560" height="">
-<img src="/assets/pipelines/03-instalacao-passo-2.2.png" class="img img-responsive img-thumbnail pull-right" alt="" title="" width="560" height="">
+<img src="assets/02-instalacao-passo-2.1.png" class="img img-responsive img-thumbnail" alt="" title="" width="560" height="">
+<img src="assets/03-instalacao-passo-2.2.png" class="img img-responsive img-thumbnail pull-right" alt="" title="" width="560" height="">
 
 ### <a name="configurando"></a> Configurando
 
