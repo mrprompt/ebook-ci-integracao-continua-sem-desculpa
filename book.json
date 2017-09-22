@@ -2,5 +2,6 @@
   "title": "Integração Contínua Sem Desculpas",
   "description": "Um guia simples e objetivo de como implementar as principais ferramentas de CI do mercado.",
   "language": "pt",
-  "author": "Thiago Paes"
+  "author": "Thiago Paes",
+  "plugins": ["toggle-chapters"]
 }

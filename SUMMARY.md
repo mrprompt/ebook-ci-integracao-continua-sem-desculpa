@@ -52,4 +52,3 @@
   * [Prós & Contras](capitulo-5/bibucket-pipelines.12.md)
   * [Conclusão](capitulo-5/bibucket-pipelines.13.md)
   * [Mais Informações](capitulo-5/bibucket-pipelines.14.md)
-
