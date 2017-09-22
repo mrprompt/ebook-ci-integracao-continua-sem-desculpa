@@ -1,6 +1,6 @@
 # CI - Integração Contínua Sem Desculpa
 
-![Robô de CI](assets/robo.jpg)
+![Robô de CI](capitulo-1/assets/robo.jpg)
 
 Eu sou muito chato na hora de desenvolver - na verdade eu sou chato em qualquer hora, mas não preciso
 ficar gerando provas contra mim -, principalmente com alguns ítens que defendo serem de extrema
