@@ -1,6 +1,5 @@
 # Summary
 
-* [Introdução](README.md)
 * [Porque utilizar CI](capitulo-1/README.md)
 * [Travis](capitulo-2/README.md)
     * [Apresentação](travis-ci.1.md)
