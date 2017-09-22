@@ -1,6 +1,5 @@
-# Summary
+# Sumário
 
-* [Introdução](readme.md)
 * [Travis CI](caps/travis-ci.md)
 * [Codeship](caps/codeship.md)
 * [Jenkins](caps/jenkins.md)
