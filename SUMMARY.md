@@ -1,10 +1,8 @@
-# CI - Integração Contínua Sem Desculpa
+# Summary
 
-![Robô de CI](assets/robo.jpg)
+* [Introdução](README.md)
+* [Travis](caps/travis-ci.md)
+* [Codeship](caps/codeship.md)
+* [Jenkins](caps/jenkins.md)
+* [Bitbucket Pipelines](caps/bitbucket-pipelines.md)
 
-Ferramentas abordadas neste livro:
-
-- [Travis](caps/travis-ci.md)
-- [Codeship](caps/codeship.md)
-- [Jenkins](caps/jenkins.md)
-- [Bitbucket Pipelines](caps/bitbucket-pipelines.md)
