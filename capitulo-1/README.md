@@ -16,5 +16,3 @@ o faça, repetir esta tarefa inúmeras vezes é inviável.
 
 - [Porque utilizar CI](introducao.1.md)
 - [Porque EU utilizo CI](introducao.2.md)
-- [Agradecimentos](introducao.3.md)
-- [O Autor](introducao.4.md)
