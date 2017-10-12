@@ -1,7 +1,8 @@
 # CI - Integração Contínua Sem Desculpa
 
-Um guia prático de como configurar os principais agentes de 
-integração contínua, para todos os gostos - e bolsos.
+Um guia prático das principais ferramentas de Integração Contínua, para todos os gostos e bolsos.
+
+Neste guia você terá um passo a passo de como instalar e configurar de maneira fácil e rápida:
 
 - [Travis](capitulo-2/README.md)
 - [Codeship](capitulo-3/README.md)

@@ -1,5 +1,7 @@
-# O Autor
+# Agradecimentos
 
-Admito que me tornei um eremita nato, aficcionado por código aberto e livre;
-vivo num mundo onde acredito que todo conhecimento deve ser livre e todo código
-aberto.
+Agradeço principalmente a minha esposa Leslye, pela paciência em ouvir minhas idéias mirabolantes, 
+e principalmente, por apoiá-las e sempre me incentivar a criar mais e mais.
+
+A minha família - que a seu modo - sempre me incentivou, e a comunidade - todas elas -, sem vocês,
+este ebook nunca teria saído.

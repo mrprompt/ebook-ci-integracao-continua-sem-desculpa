@@ -6,5 +6,3 @@
 - [Using Multiple Buildpacks for an App](https://devcenter.heroku.com/articles/using-multiple-buildpacks-for-an-app)
 - [Openshift](https://www.openshift.com)
 - [Heroku](https://www.openshift.com/)
-
-Por hoje é isso, o próximo artigo é sobre o [PHPCI](https://www.phptesting.org/), aguarde e até lá.

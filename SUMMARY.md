@@ -1,10 +1,11 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introdução](README.md)
 * [Início](capitulo-1/README.md)
   * [Porque utilizar CI](capitulo-1/introducao.1.md)
-  * [Agradecimentos](capitulo-1/introducao.2.md)
-  * [O Autor](capitulo-1/introducao.3.md)
+  - [Porque EU utilizo CI](capitulo-1/introducao.2.md)
+  * [Agradecimentos](capitulo-1/introducao.3.md)
+  * [O Autor](capitulo-1/introducao.4.md)
 * [Travis](capitulo-2/README.md)
   * [Apresentação](capitulo-2/travis-ci.1.md)
   * [Cadastro](capitulo-2/travis-ci.2.md)

@@ -1,10 +1,5 @@
 ## Cache
 
-Não tenho tido muito tempo de continuar a série sobre integração contínua, porém, venho utilizado
-no meu dia a dia o Bitbucket Pipelines como principal ferramenta de CI. Com isso, tenho podido
-acompanhar a evolução desta ferramenta e a facilidade de uso que o time do Bitbucket vem 
-proporcionando a cada atualização.
-
 Um dos maiores problemas na integração contínua, é a instalação de todas as dependências do 
 projeto até chegar na produção de artefatos limpos. Rodar um ``composer install`` ou um ``npm install`` 
 a cada build pode ser custoso e demorado. Nenhum time quer esperar vários minutos para saber se 
