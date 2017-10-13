@@ -57,3 +57,4 @@
 * [Finalizando](capitulo-6/README.md)
   * [Agradecimentos](capitulo-6/finalizando.1.md)
   * [O Autor](capitulo-6/finalizando.2.md)
+  * [Ajude a manter](capitulo-6/finalizando.3.md)
