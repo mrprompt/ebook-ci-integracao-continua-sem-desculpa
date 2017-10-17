@@ -1,6 +1,6 @@
 ### <a name="apresentacao"></a> Apresentação
 
-Conheço a relativamente pouco tempo o **CodeShip**, mas sua facilidade de uso e simplicidade me convenceram logo de cara a
+Conheço há relativamente pouco tempo o **CodeShip**, mas sua facilidade de uso e simplicidade me convenceram logo de cara a
 utilizá-lo no projeto de um cliente, e logo tomei-o também para alguns [projetos pessoais](https://github.com/mrprompt), como
 alternativa ao **Travis-CI**.
 
