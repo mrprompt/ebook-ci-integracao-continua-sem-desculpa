@@ -2,7 +2,7 @@
 
 Configurar um ambiente de integração - e entrega - contínua é algo mais que importante nos dias atuais.
 
-Com o velocidade que as ferramentas são criadas, a nacessidade de uma entrega "para ontem", equipes 
+Com a velocidade que as ferramentas são criadas, a necessidade de uma entrega "para ontem", equipes 
 que trabalham em diferentes partes do software, e até mesmo em posições geográficas diferentes, 
 automatizar o fluxo de entrega é ítem obrigatório para manter a sanidade de todos.
 
