@@ -26,11 +26,18 @@ minima:
       icon: instagram
       url: "https://www.instagram.com/onegaothiago/"
   nav_pages:
-    - capitulo-1/README.md
-    - capitulo-2/README.md
-    - capitulo-3/README.md
-    - capitulo-4/README.md
-    - capitulo-5/README.md
+    - title: Introdução
+      url: capitulo-1/README.md
+    - title: Travis-CI
+      url: capitulo-2/README.md
+    - title: CodeShip
+      url: capitulo-3/README.md
+    - title: Jenkins
+      url: capitulo-4/README.md
+    - title: Pipelines
+      url: capitulo-5/README.md
+    - title: Finalizando
+      url: capitulo-6/README.md
 
     
 author:
