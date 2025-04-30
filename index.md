@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CI - Integração Contínua Sem Desculpa
+title: home
 ---
 
 Um guia prático das principais ferramentas de Integração Contínua, para todos os gostos e bolsos.
