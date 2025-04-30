@@ -1,4 +1,9 @@
-# CI - Integração Contínua Sem Desculpa
+---
+layout: page
+title: Introdução
+---
+
+## CI - Integração Contínua Sem Desculpa
 
 ![Robô de CI](assets/robo.jpg)
 

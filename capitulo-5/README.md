@@ -1,4 +1,9 @@
-# Integração Contínua com Bitbucket Pipelines
+---
+layout: page
+title: Pipelines
+---
+
+## Integração Contínua com Bitbucket Pipelines
 
 <img src="assets/pipelines.png" class="img img-responsive img-thumbnail pull-right" alt="Bitbucket Pipelines Logo" title="Pipelines" width="400" height="335">
 

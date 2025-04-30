@@ -1,4 +1,9 @@
-# Integração Contínua com Travis-CI
+---
+layout: page
+title: Travis-CI
+---
+
+## Integração Contínua com Travis-CI
 
 O **Travis-CI**, é um dos queridinhos e escolhido por 9 entre cada 10 dentistas, não péra, vamos de novo...
 Senhoras e senhores, apresentando a vocês, o incrível: **Travis-CI**!!!

@@ -1,4 +1,9 @@
-# Integração Contínua com Jenkins
+---
+layout: page
+title: Jenkins
+---
+
+## Integração Contínua com Jenkins
 
 Acho que simplesmente, o mais famoso e utilizado de todos - e também, o mais complicado de se manter.
 

@@ -1,4 +1,9 @@
-# Integração Contínua com CodeShip
+---
+layout: page
+title: CodeShip
+---
+
+## Integração Contínua com CodeShip
 
 <img src="assets/codeship.png" class="img img-responsive pull-right" alt="Codeship Logo" title="Codeship" width="250">
 
