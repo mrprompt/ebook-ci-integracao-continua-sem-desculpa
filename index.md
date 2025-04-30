@@ -1,68 +1,57 @@
 ---
 layout: page
-title: home
+title: CI - Integração Contínua Sem Desculpa
 ---
 
 Um guia prático das principais ferramentas de Integração Contínua, para todos os gostos e bolsos.
 
 Neste guia você terá um passo a passo de como instalar e configurar de maneira fácil e rápida:
 
-## Índice
+![Robô de CI](assets/robo.jpg)
 
-- [Início](capitulo-1/README.md)
-  - [Porque utilizar CI](capitulo-1/introducao.1.md)
-  - [Porque EU utilizo CI](capitulo-1/introducao.2.md)
-- [Travis](capitulo-2/README.md)
-  - [Apresentação](capitulo-2/travis-ci.1.md)
-  - [Cadastro](capitulo-2/travis-ci.2.md)
-  - [Configurando](capitulo-2/travis-ci.3.md)
-    - [PHP](capitulo-2/travis-ci.4.md)
-    - [Nodejs](capitulo-2/travis-ci.5.md)
-    - [Angularjs](capitulo-2/travis-ci.6.md)
-    - [Ruby](capitulo-2/travis-ci.7.md)
-    - [Java](capitulo-2/travis-ci.8.md)
-  - [Prós & Contras](capitulo-2/travis-ci.9.md)
-  - [Conclusão](capitulo-2/travis-ci.10.md)
-  - [Mais Informações](capitulo-2/travis-ci.11.md)
-- [Codeship](capitulo-3/README.md)
-  - [Apresentação](capitulo-3/codeship.1.md)
-  - [Cadastro](capitulo-3/codeship.2.md)
-  - [Configurando](capitulo-3/codeship.3.md)
-    - [PHP](capitulo-3/codeship.4.md)
-    - [Nodejs](capitulo-3/codeship.5.md)
-    - [Angularjs](capitulo-3/codeship.6.md)
-    - [Ruby](capitulo-3/codeship.7.md)
-    - [Java](capitulo-3/codeship.8.md)
-  - [Prós & Contras](capitulo-3/codeship.9.md)
-  - [Conclusão](capitulo-3/codeship.10.md)
-  - [Mais Informações](capitulo-3/codeship.11.md)
-- [Jenkins](capitulo-4/README.md)
-  - [Apresentação](capitulo-4/jenkins.1.md)
-  - [Instalação](capitulo-4/jenkins.2.md)
-  - [Configurando](capitulo-4/jenkins.3.md)
-    - [PHP](capitulo-4/jenkins.4.md)
-    - [Nodejs](capitulo-4/jenkins.5.md)
-    - [Ruby](capitulo-4/jenkins.6.md)
-    - [Java](capitulo-4/jenkins.7.md)
-  - [Prós & Contras](capitulo-4/jenkins.8.md)
-  - [Conclusão](capitulo-4/jenkins.9.md)
-  - [Mais Informações](capitulo-4/jenkins.10.md)
-- [Bitbucket Pipelines](capitulo-5/README.md)
-  - [Apresentação](capitulo-5/bitbucket-pipelines.1.md)
-  - [Instalação](capitulo-5/bitbucket-pipelines.2.md)
-  - [Configurando](capitulo-5/bitbucket-pipelines.3.md)
-    - [PHP](capitulo-5/bitbucket-pipelines.4.md)
-    - [Nodejs](capitulo-5/bitbucket-pipelines.5.md)
-    - [Angularjs](capitulo-5/bitbucket-pipelines.6.md)
-    - [Ruby](capitulo-5/bitbucket-pipelines.7.md)
-    - [Java](capitulo-5/bitbucket-pipelines.8.md)
-  - [Trabalhando com múltiplos branchs](capitulo-5/bitbucket-pipelines.9.md)
-  - [Containers auxiliares](capitulo-5/bitbucket-pipelines.10.md)
-  - [Cache](capitulo-5/bitbucket-pipelines.11.md)
-  - [Prós & Contras](capitulo-5/bitbucket-pipelines.12.md)
-  - [Conclusão](capitulo-5/bitbucket-pipelines.13.md)
-  - [Mais Informações](capitulo-5/bitbucket-pipelines.14.md)
-- [Finalizando](capitulo-6/README.md)
-  - [Agradecimentos](capitulo-6/finalizando.1.md)
-  - [O Autor](capitulo-6/finalizando.2.md)
-  - [Ajude a manter](capitulo-6/finalizando.3.md)
+Manter um ambiente de testes e integração contínua, é imprescindível para qualquer projeto ou desenvolvedor
+sério, que queira manter sua produtividade em alta e foco na entrega de valor de cada demanda, e não em tarefas
+repetitivas e passíveis de erro.
+
+E é justamente por isso, porque humanos simplesmente erram, que é necessária a configuração de um ambiente
+automatizado de testes e integração, onde o fluxo possa apenas fluir, sem que ninguém precise "rodar um script"
+ou "atualizar o servidor".
+
+Rodar testes e verificar se tudo se integra facilmente é fundamental em qualquer projeto, e isso pode ser um
+processo bem massante se feito manualmente pelo gerente de projetos ou dev sênior do time, independente de quem
+o faça, repetir esta tarefa inúmeras vezes é inviável.
+
+### Porque utilizar CI
+
+Configurar um ambiente de integração - e entrega - contínua é algo mais que importante nos dias atuais.
+
+Com a velocidade que as ferramentas são criadas, a necessidade de uma entrega "para ontem", equipes
+que trabalham em diferentes partes do software, e até mesmo em posições geográficas diferentes,
+automatizar o fluxo de entrega é ítem obrigatório para manter a sanidade de todos.
+
+Independente se você é um daqueles que possui scripts para tudo, um defensor ferrenho do "deixa que eu
+faço a mão que é mais garantido" ou nunca utilizou uma ferramenta de integração contínua, este ebook é
+justamente para você.
+
+### Porque EU utilizo CI
+
+Eu sou muito chato na hora de desenvolver - na verdade eu sou chato em qualquer hora, mas não preciso
+ficar gerando provas contra mim -, principalmente com alguns ítens que defendo serem de extrema
+importância para quem pensa em qualidade de software, ou de desenvolvimento, como testes, integração
+contínua, deploy automatizado e etc.
+
+Sou defensor ferrenho do software livre e do código aberto, e com excessão dos trabalhos no qual sou
+preso por algum contrato, tudo que escrevo faço questão de colocar como livre, e acho que isso é um
+incentivo não somente pela colaboração com a comunidade, mas também para tentar desenvolver com o
+máximo de qualidade que possível, afinal, ninguém gosta de ouvir uma crítica ruim ou passar vergonha
+com algo mal feito, não é mesmo?
+
+Com base nessas minhas "chatices", resolvi criar uma série de textos, sobre as ferramentas disponíveis
+no mercado, que auxiliam a manter o controle sobre as coisas, e a desenvolver de forma contínua, sempre
+procurando entregar o máximo de valor, da melhor forma possível.
+
+Então, se você ainda não utiliza nenhuma ferramenta para Integração ou Entrega contínua, quer conhecer
+novas ferramentas ou simplesmente ver como toco meu trabalho no meu dia-a-dia, prossiga para os próximos
+capítulos deste ebook que você não vai se arrepender.
+
+Boa leitura :)

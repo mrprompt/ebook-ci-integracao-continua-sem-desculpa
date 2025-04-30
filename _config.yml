@@ -26,7 +26,6 @@ minima:
       icon: instagram
       url: "https://www.instagram.com/onegaothiago/"
   nav_pages:
-    - intro.md
     - codeship.md
     - jenkins.md
     - travis-ci.md
