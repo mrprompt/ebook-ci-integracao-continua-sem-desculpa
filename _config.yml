@@ -1,0 +1,38 @@
+remote_theme: "jekyll/minima@1e8a445"
+
+# Site settings
+title: mrprompt
+email: contato@mrprompt.com.br
+url: "/ebook-ci-integracao-continua-sem-desculpa"
+description: Um guia prático das principais ferramentas de Integração Contínua, para todos os gostos e bolsos.
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+lang: pt-br
+
+minima:
+  skin: classic
+  date_format: "%d-%m-%Y"
+  hide_site_feed_link: false
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/mrprompt"
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/paesthiago/"
+    - title: Instagram
+      icon: instagram
+      url: "https://www.instagram.com/onegaothiago/"
+  nav_pages:
+    - capitulo-1/README.md
+    - capitulo-2/README.md
+    - capitulo-3/README.md
+    - capitulo-4/README.md
+    - capitulo-5/README.md
+
+    
+author:
+  name: mrprompt
+  email: contato@mrprompt.com.br
