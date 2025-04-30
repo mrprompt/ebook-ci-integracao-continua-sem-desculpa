@@ -6,7 +6,7 @@ title: Travis-CI
 O **Travis-CI**, é um dos queridinhos e escolhido por 9 entre cada 10 dentistas, não péra, vamos de novo...
 Senhoras e senhores, apresentando a vocês, o incrível: **Travis-CI**!!!
 
-<img src="assets/travis-ci.svg" class="img img-responsive pull-right" alt="Travis-CI Logo">
+<img src="../assets/travis-ci.svg" class="img img-responsive pull-right" alt="Travis-CI Logo">
 
 Um boa parte dos projetos que encontramos no **GitHub**, que possuam um mínimo de testes, utilizam
 o **Travis-CI** como sua principal ferramenta de integração contínua e testes automatizados; isso porque
@@ -27,13 +27,13 @@ Com poucas linhas, é possível subir seu ambiente de testes e começar a testar
 disparar gatilhos no caso de sucesso ou falhas. Fora o "badge" bacana que tu pode colocar no _README_ do
 projeto ;)
 
-![Travis-CI Screenshot](assets/travis-ci.png)
+![Travis-CI Screenshot](../assets/travis-ci.png)
 
 ### Cadastro
 
 O cadastro é simples e rápido, bastando você se logar com sua conta do **GitHub** e logo você cai na Dashboard,
 onde estão seus projetos listados em uma coluna à esquerda e o status detalhado do build do projeto selecionado.
-<img src="assets/shot-travis-dashboard.png" class="img img-responsive" alt="Travis-CI - Dashboard">
+<img src="../assets/shot-travis-dashboard.png" class="img img-responsive" alt="Travis-CI - Dashboard">
 
 Caso seja seu primeiro acesso, você não terá nenhum projeto listado, tendo que habilitar na tela de configurações que
 veremos a seguir com detalhes.
@@ -41,7 +41,7 @@ veremos a seguir com detalhes.
 ### Configurando
 
 Tão simples quanto o cadastro é a configuração do **Travis-CI** para cada projeto.
-<img src="assets/shot-travis-settings.png" class="img img-responsive" alt="Travis-CI - Settings">
+<img src="../assets/shot-travis-settings.png" class="img img-responsive" alt="Travis-CI - Settings">
 
 Nela você pode configurar dentre as variáveis de ambiente - caso seu projeto utilize - se o build ocorrerá somente nos
 "pushs" do projeto ou também sobre cada pull request - ótimo e aconselhável.
@@ -80,7 +80,7 @@ No arquivo você também pode configurar ações para cad etapa do build, são e
 As ações marcadas com "*" são opcionais no arquivo de configuração. Na verdade, você também não é obrigado a configurar todos
 os passos citados ;)
 
-<img src="assets/shot-travis-accounts.png" class="img img-thumbnail pull-right" alt="Travis-CI - Accounts">
+<img src="../assets/shot-travis-accounts.png" class="img img-thumbnail pull-right" alt="Travis-CI - Accounts">
 Também é possível clicar no canto superior direito, acessando o menu _Accounts_ para integrar - ou desligar - outros projetos
 que você tenha acesso.
 
@@ -97,16 +97,16 @@ como falado anteriormente.
 Na imagem abaixo, temos um exemplo de projetos integrados e não integrados com a ferramenta, assim como algumas organizações que
 possuo acesso através do [meu **GitHub**](https://github.com/mrprompt).
 
-<img src="assets/shot-travis-accounts-2.png" class="img img-thumbnail" alt="Travis-CI - Accounts 2">
+<img src="../assets/shot-travis-accounts-2.png" class="img img-thumbnail" alt="Travis-CI - Accounts 2">
 
 Com o **Travis** habilitado para seu projeto, você pode ir até a página do projeto no **GitHub** e olhar as configurações do
 serviço, na aba _Webhooks & Services_, nela, você verá uma imagem semelhante a abaixo, onde você poderá ver serviço habilitado.
 
-<img src="assets/shot-github-settings-services.png" class="img img-thumbnail" alt="GitHub - Webhooks & Services">
+<img src="../assets/shot-github-settings-services.png" class="img img-thumbnail" alt="GitHub - Webhooks & Services">
 
 Clicando no lápis, teremos detalhes da configuração - não se preoupce, você não precisa mexer em nada aqui:
 
-<img src="assets/shot-github-settings-services-travis.png" class="img img-thumbnail" alt="GitHub - Webhooks & Services - Travis">
+<img src="../assets/shot-github-settings-services-travis.png" class="img img-thumbnail" alt="GitHub - Webhooks & Services - Travis">
 
 Você também pode testar o serviço, sem ter que fazer um push para seu repositório, clicando no botão "Test service" logo no topo.
 

@@ -5,7 +5,7 @@ title: Jenkins
 
 Acho que simplesmente, o mais famoso e utilizado de todos - e também, o mais complicado de se manter.
 
-<img src="assets/00-logo.png" class="img img-responsive img-thumbnail pull-right" alt="Jenkins Logo" title="Jenkins" width="185" height="256">
+<img src="../assets/00-logo.png" class="img img-responsive img-thumbnail pull-right" alt="Jenkins Logo" title="Jenkins" width="185" height="256">
 
 Pra não quebrar o padrão<sup>vulgo TOC</sup>, vou dividir o post em algumas partes:
 
@@ -45,19 +45,19 @@ docker run -p 8080:8080 -p 50000:50000 jenkins
 
 Feito isso, abrimos o endereço **http//localhost:8080** e temos o primeiro passo da instalação, onde inserimos a chave gerada quando subimos o serviço:
 
-<img src="assets/01-unlock.png" class="img img-responsive img-thumbnail" alt="Desbloqueio" title="Tela de desbloqueio">
+<img src="../assets/01-unlock.png" class="img img-responsive img-thumbnail" alt="Desbloqueio" title="Tela de desbloqueio">
 
 Desbloqueada a tela, você tem duas duas opções para prosseguir, por hora vamos na primeira porque é mais prático:
 
-| <img src="assets/02-plugins.png" class="img img-responsive img-thumbnail" alt="Plugins" title="Selecionar plugins (ou não)"> | <img src="assets/03-plugins-installing.png" class="img img-responsive img-thumbnail" alt="Plugins 2" title="Plugins sendo instalados">|
+| <img src="../assets/02-plugins.png" class="img img-responsive img-thumbnail" alt="Plugins" title="Selecionar plugins (ou não)"> | <img src="../assets/03-plugins-installing.png" class="img img-responsive img-thumbnail" alt="Plugins 2" title="Plugins sendo instalados">|
 
 Após tudo instalado - espero que você tenha lembrado de pegar um café enquanto o download dos plugins acontecia -, caímos na tela de criação de usuário, mas você também pode clicar em continuar como admin caso não vá compartilhar o ambiente com mais ninguém.
 
-| <img src="assets/04-user.png" class="img img-responsive img-thumbnail" alt="Usuário" title="Criar usuário"> | <img src="assets/05-instalado.png" class="img img-responsive img-thumbnail" alt="Instalado" title="Fim da instalação"> |
+| <img src="../assets/04-user.png" class="img img-responsive img-thumbnail" alt="Usuário" title="Criar usuário"> | <img src="../assets/05-instalado.png" class="img img-responsive img-thumbnail" alt="Instalado" title="Fim da instalação"> |
 
 Tudo instalado e rodando bonitinho, temos o Jenkins funcionando e exibindo a tela inicial vazia, pois ainda não criamos nenhum trabalho.
 
-<img src="assets/06-dashboard-vazia.png" class="img img-responsive img-thumbnail" alt="Dashboard" title="Dashboard vazia">
+<img src="../assets/06-dashboard-vazia.png" class="img img-responsive img-thumbnail" alt="Dashboard" title="Dashboard vazia">
 
 ### <a name="configurando"></a> Configurando
 
@@ -67,15 +67,15 @@ Antes de criarmos um trabalho, vamos configurar alguns ítens importantes, clica
 
 Nesta tela, você pode configurar uma mensagem de boas vindas, o número de executores, que define quantos builds você pode fazer em paralelo. Lembre que cada executor é uma thread, então não exagere. O padrão é dois.
 
-<img src="assets/07-config.png" class="img img-responsive img-thumbnail" alt="Config" title="Configuração - Boas vindas e executores">
+<img src="../assets/07-config.png" class="img img-responsive img-thumbnail" alt="Config" title="Configuração - Boas vindas e executores">
 
 Outro ítem importante - mas não obrigatório -, são as variáveis de ambiente. Eu gosto muito de utilizar este recurso, para definir qual ambiente, acessos a serviços e etc.
 
-<img src="assets/08-config-envvars.png" class="img img-responsive img-thumbnail" alt="Variáveis de ambiente" title="Configuração - Variáveis de ambiente">
+<img src="../assets/08-config-envvars.png" class="img img-responsive img-thumbnail" alt="Variáveis de ambiente" title="Configuração - Variáveis de ambiente">
 
 Se você deseja que o resultados dos builds sejam enviados por email, é importante configurar também, um servidor SMTP para o envio das mensagens:
 
-<img src="assets/09-config-smtp.png" class="img img-responsive img-thumbnail" alt="SMTP" title="Configuração - SMTP">
+<img src="../assets/09-config-smtp.png" class="img img-responsive img-thumbnail" alt="SMTP" title="Configuração - SMTP">
 
 Uma outra sessão muito importante é a de plugins, lá você encontrará muita coisa interessante para deixar o seu Jenkins ainda mais turbinado, é extensa a lista e compensa separar alguns minutos - ou horas - para testar alguns plugins. Alguns que recomendo:
 
@@ -115,7 +115,7 @@ The key's randomart image is:
 
 Agora, voltando para nossa interface do Jenkins, clicando no menu a direita, vamos em **Credentials**, **System**, **Global credentials** e finalmente em **Add Credentials**. Onde iremos nos deparar com a tela a seguir, que nos permitirá configurar vários meios de autenticação, por hora, ficaremos apenas definindo que o Jenkins utilizará a chave do usuário padrão do container.
 
-<img src="assets/10-credentials.png" class="img img-responsive img-thumbnail" alt="Credenciais" title="Credenciais - Chave SSH">
+<img src="../assets/10-credentials.png" class="img img-responsive img-thumbnail" alt="Credenciais" title="Credenciais - Chave SSH">
 
 ### <a name="trabalho"></a> Criando o primeiro trabalho
 
@@ -129,38 +129,38 @@ clonar -> dependências -> testes -> build -> publicação
 
 Nosso primeiro passo é ao clicar em "Novo job", selecionar o tipo de projeto que vamos configurar, para um primeiro passo, prefiro utilizar o "free-style", que é uma configuração limpa e podemos prosseguir configurando os passos conforme a necessidade de nosso projeto.
 
-<img src="assets/11-novo-job.png" class="img img-responsive img-thumbnail" alt="Tipos" title="Jenkins - Tipos de projetos">
+<img src="../assets/11-novo-job.png" class="img img-responsive img-thumbnail" alt="Tipos" title="Jenkins - Tipos de projetos">
 
 Com o tipo de projeto configurado, vamos nos deparar com a tela de configuração do trabalho em si, onde iremos configurar todos os detalhes do projeto.
 
 Na primeira parte, vemos como configurar além do nome do projeto - procure não mudar aqui, nem utilizar caracteres estranhos, a cópia de trabalho é baseada neste nome - um espaço para preenchermos uma descrição do mesmo. Você pode utilizar este espaço para exibir uma imagem com a sua cobertura de código por exemplo ;)
 
-<img src="assets/12-job-geral.png" class="img img-responsive img-thumbnail" alt="Detalhes" title="Jenkins - Detalhes do projeto">
+<img src="../assets/12-job-geral.png" class="img img-responsive img-thumbnail" alt="Detalhes" title="Jenkins - Detalhes do projeto">
 
 Em seguida, temos a opção de **Descartar builds antigos**, importante para salvarmos nosso espaço em disco, já que cada build, pode ocupar um espaço considerável em disco, contabilize quanto isso não daria por semana ou mês.
 
 Eu procuro não manter um número muito grande de builds armazenados, já que os mesmos rodam a cada push - e vai por mim, você também não vai querer que seu disco encha rapidamente - mas é importante ter um número suficiente que te permita voltar a um estado anterior a publicação atual.
 
-<img src="assets/13-historico-de-builds.png" class="img img-responsive img-thumbnail" alt="Histórico" title="Jenkins - Número de builds a se manter">
+<img src="../assets/13-historico-de-builds.png" class="img img-responsive img-thumbnail" alt="Histórico" title="Jenkins - Número de builds a se manter">
 
 Em seguida, selecionando o nosso controle de versão definimos o endereço do nosso repositório, assim como o branch a ser observado.
 
-<img src="assets/14-codigo-fonte.png" class="img img-responsive img-thumbnail" alt="Código Fonte" title="Controle do Código Fonte">
+<img src="../assets/14-codigo-fonte.png" class="img img-responsive img-thumbnail" alt="Código Fonte" title="Controle do Código Fonte">
 
 É também nesta tela que podemos definir qual o tipo de autenticação iremos utilizar para autenticar o Jenkins em nosso repositório, clicando em **Credentials** podemos selecionar a chave criada no início, na tela de configurações, ou mesmo adicionar uma nova. Lembre-se de adicionar o conteúdo da chave pública do Jenkins, como uma chave válida para deploy em seu controle de versão.
 
 Com o acesso ao repositório configurado, podemos definir quando nosso build ocorrerá automaticamente, você possui várias opções, eu gosto muito de habilitar tanto  checagem automática a cada hora, quanto a cada push que o repositório receber.
 A checagem periódica usa o mesmo padrão da cron, então, é possível também utilizar valores como @hourly, @daily e etc, dependendo do tamanho do seu projeto e de quanto tempo leve o build, seja uma boa idéia chegar num valor que não atrapalhe a equipe aqui, criando filas de builds desnecessários.
 
-<img src="assets/15-trigger.png" class="img img-responsive img-thumbnail" alt="Periodicidade" title="Jenkins - Checagem do repositório">
+<img src="../assets/15-trigger.png" class="img img-responsive img-thumbnail" alt="Periodicidade" title="Jenkins - Checagem do repositório">
 
 O próximo bloco é sobre o ambiente, onde você pode limpar sua área de trabalho, habilitar alguns plugins e etc. Gosto de habilitar um plugin chamado **ci-skip**, para atualizações que não requerem um build, como uma atualização do arquivo README do projeto por exemplo.
 
-<img src="assets/16-ambiente.png" class="img img-responsive img-thumbnail" alt="Ambiente" title="Jenkins - Ambiente">
+<img src="../assets/16-ambiente.png" class="img img-responsive img-thumbnail" alt="Ambiente" title="Jenkins - Ambiente">
 
 Os próximos blocos são bem semelhantes, porém, no primeiro, você configura todos os passos necessários até que seu projeto seja definido como entregável, o segundo, são os passos a ser executados após o build ser definido como tal. Lembre-se, que cada passo de build depende do sucesso do seu anterior, então, é uma boa prática não juntar todos os passos num bloco só de build.
 
-<img src="assets/17-build.png" class="img img-responsive img-thumbnail" alt="Builds" title="Passos de builds">
+<img src="../assets/17-build.png" class="img img-responsive img-thumbnail" alt="Builds" title="Passos de builds">
 
 Nos próximos passos, vou mostrar como fazer uma configuração básica para projetos em algumas linguagens comuns no mercado.
 
@@ -168,23 +168,23 @@ Nos próximos passos, vou mostrar como fazer uma configuração básica para pro
 
 No exemplo em PHP, a configuração é bem simples, bastando rodar o composer - previamente instalado - para instalar as dependências do projeto, e em seguida, o testes com o PHPUnit, o que me garante o sucesso do build.
 
-<img src="assets/18-php.png" class="img img-responsive img-thumbnail" alt="PHP" title="Exemplo de Build - PHP">
+<img src="../assets/18-php.png" class="img img-responsive img-thumbnail" alt="PHP" title="Exemplo de Build - PHP">
 
 #### <a name="configurando-nodejs"></a> Nodejs
 
-<img src="assets/21-nodejs.png" class="img img-responsive img-thumbnail" alt="Nodejs" title="Exemplo de Build - Nodejs">
+<img src="../assets/21-nodejs.png" class="img img-responsive img-thumbnail" alt="Nodejs" title="Exemplo de Build - Nodejs">
 
 #### <a name="configurando-ruby"></a> Ruby
 
-<img src="assets/20-ruby.png" class="img img-responsive img-thumbnail" alt="Ruby" title="Exemplo de Build - Ruby">
+<img src="../assets/20-ruby.png" class="img img-responsive img-thumbnail" alt="Ruby" title="Exemplo de Build - Ruby">
 
 #### <a name="configurando-java"></a> Java
 
 Para nosso exemplo em java, utilizei a criação do trabalho do tipo Maven.
-<img src="assets/19-java-1.png" class="img img-responsive img-thumbnail" alt="Java" title="Exemplo de Build - Java">
+<img src="../assets/19-java-1.png" class="img img-responsive img-thumbnail" alt="Java" title="Exemplo de Build - Java">
 
 Em seguida, adicionei o repositório e deixei nas configurações default, para que ele leia o arquivo POM do projeto e tente executar o build.
-<img src="assets/19-java-2.png" class="img img-responsive img-thumbnail" alt="Java" title="Exemplo de Build - Java">
+<img src="../assets/19-java-2.png" class="img img-responsive img-thumbnail" alt="Java" title="Exemplo de Build - Java">
 
 ### <a name="pros-e-contras"></a> Prós & Contras
 
