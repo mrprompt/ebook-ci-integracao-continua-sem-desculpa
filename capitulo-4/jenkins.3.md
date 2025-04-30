@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ### <a name="configurando"></a> Configurando
 
 O Jenkins precisa que as ferramentas que você necessita para rodar o seu build (como a versão correta do PHP, Nodejs ou JDK por exemplo) estejam devidamente configuradas e funcionais na máquina hospedeira, então, fique sempre atento a isso.

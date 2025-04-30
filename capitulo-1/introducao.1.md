@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Porque utilizar CI
 
 Configurar um ambiente de integração - e entrega - contínua é algo mais que importante nos dias atuais.

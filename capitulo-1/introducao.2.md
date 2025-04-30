@@ -1,4 +1,8 @@
-## Porque EU utilizo CI
+---
+layout: page
+---
+
+# Porque EU utilizo CI
 
 Eu sou muito chato na hora de desenvolver - na verdade eu sou chato em qualquer hora, mas não preciso
 ficar gerando provas contra mim -, principalmente com alguns ítens que defendo serem de extrema

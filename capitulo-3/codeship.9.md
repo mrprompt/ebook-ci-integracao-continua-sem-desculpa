@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ### <a name="pros-e-contras"></a> Prós & Contras
 
 O **CodeShip** é simples e prático de configurar por isso mesmo tornou-se rapidamente uma das minhas ferramentas de uso constante nos

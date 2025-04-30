@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # Ajude a manter este livro
 
 Todo o conteúdo e os fontes deste livro são abertos e disponível para quem 

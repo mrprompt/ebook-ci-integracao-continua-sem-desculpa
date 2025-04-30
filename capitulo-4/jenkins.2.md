@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ### <a name="instalacao"></a> Instalação
 
 O Jenkins pode ser instalado de várias formas, o jeito mais simples, é utilizando o nosso tão conhecido apt-get ou yum, mas também pode ser instalado via homebrew para os usuários de Mac, ou simplesmente rodando o jar baixado no site. Eu prefiro sempre a primeira opção, buscando um repositório constantemente atualizado e etc.

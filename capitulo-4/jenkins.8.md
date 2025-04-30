@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ### <a name="pros-e-contras"></a> Prós & Contras
 
 O Jenkins é uma aplicação robusta e tem plugin para realmente tudo. Por ser uma ferramenta que está a muito tempo no mercado,

@@ -1,3 +1,6 @@
+---
+layout: page
+---
 #### <a name="configurando-multiplos-branchs"></a> Trabalhando com múltiplos branchs
 
 ```

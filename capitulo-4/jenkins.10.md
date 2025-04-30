@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ### <a name="mais-informacoes"></a> Mais Informações
 
 - [Documentação Oficial](https://jenkins.io/doc)

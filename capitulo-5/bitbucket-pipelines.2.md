@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ### <a name="instalacao"></a> Instalação
 
 A instalação do Pipelines é bem simples, bastando que você habilite no menu lateral e siga os passos na tela. A instalação inicial, se divide em dois passos bem simples

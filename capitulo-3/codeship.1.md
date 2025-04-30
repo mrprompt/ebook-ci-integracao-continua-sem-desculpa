@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ### <a name="apresentacao"></a> Apresentação
 
 Conheço há relativamente pouco tempo o **CodeShip**, mas sua facilidade de uso e simplicidade me convenceram logo de cara a

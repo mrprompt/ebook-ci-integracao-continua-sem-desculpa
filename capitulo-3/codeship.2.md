@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ### <a name="cadastro"></a> Cadastro
 
 O cadastro é simples, com poucos campos - bastando você informar seu nome, email, senha e pronto - ou conectar-se diretamente

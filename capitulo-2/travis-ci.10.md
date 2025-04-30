@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # <a name="conclusao"></a> Conclusão
 
 O **Travis-CI** é indiscutivelmente, minha primeira opção para projetos no **GitHub** ou de código

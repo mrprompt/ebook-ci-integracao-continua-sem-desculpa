@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ## Containers auxiliares
 
 Um recurso bem interessante do Pipelines são os containers paralelos - ou auxiliares, como queira chamar - que nada são que container 

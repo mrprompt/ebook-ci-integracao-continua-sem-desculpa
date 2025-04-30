@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ### <a name="conclusao"></a> Conclusão
 
 Para quem utiliza exclusivamente o Bitbucket como controle de versão e possui projetos privados, mas não quer gastar uma quantia considerável para rodar utilizar uma ferramenta de CI, o Pipelines cai como uma luva.

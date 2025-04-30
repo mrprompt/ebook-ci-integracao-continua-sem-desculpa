@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # <a name="configurando-java"></a> Java
 
 Não possuo experiência com **Java**, então, o exemplo a seguir eu busquei na documentação do próprio

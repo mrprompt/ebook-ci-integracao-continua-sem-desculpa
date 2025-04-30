@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # <a name="cadastro"></a> Cadastro
 
 O cadastro é simples e rápido, bastando você se logar com sua conta do **GitHub** e logo você cai na Dashboard,

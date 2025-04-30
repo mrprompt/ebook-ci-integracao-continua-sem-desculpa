@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # O Autor
 
 Meu nome é Thiago Paes, também conhecido como *mrprompt*, que é o nickname que 

@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ### <a name="pros-e-contras"></a> Prós & Contras
 
 A favor do Pipelines, tem muita coisa, apesar de ser uma ferramenta nova e ainda em sua versão beta, ela cumpre o que promete e reconhece [suas limitações](https://confluence.atlassian.com/bitbucket/limitations-of-bitbucket-pipelines-827106051.html).

@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # <a name="configurando-ruby"></a> Ruby
 
 Não possuo experiência com Ruby além de minúsculos projetos de exemplo e alguns sites hospedados no **GitHub**, que

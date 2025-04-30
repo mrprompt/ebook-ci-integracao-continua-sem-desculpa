@@ -1,3 +1,6 @@
+---
+layout: page
+---
 #### <a name="configurando-java"></a> Java
 
 Para nosso exemplo em java, utilizei a criação do trabalho do tipo Maven.

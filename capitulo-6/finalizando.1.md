@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # Agradecimentos
 
 Agradeço principalmente a minha esposa Leslye, pela paciência em ouvir minhas idéias mirabolantes, 

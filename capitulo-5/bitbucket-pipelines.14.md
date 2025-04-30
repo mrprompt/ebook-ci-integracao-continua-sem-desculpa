@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ### <a name="mais-informacoes"></a> Mais Informações
 
 - [Bitbucket Pipelines](https://confluence.atlassian.com/bitbucket/bitbucket-pipelines-792496469.html)

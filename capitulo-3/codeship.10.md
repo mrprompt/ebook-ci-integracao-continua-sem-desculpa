@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ### <a name="conclusao"></a> Conclusão
 
 Logo a primeira vista, o **CodeShip** demonstra ser uma excelente ferramenta, e no decorrer do uso, ela prova isso.

@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # <a name="pros-e-contras"></a> Prós & Contras
 
 O **Travis-CI** na minha opinião é uma ferramenta fantástica e incrivelmente simples de configurar.

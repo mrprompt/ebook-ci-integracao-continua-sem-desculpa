@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ### <a name="configurando"></a> Configurando
 
 Finalizando os passos, será criado no projeto o arquivo **bitbucket-pipelines.yml**, contendo a configuração do ambiente e dos passos necessários para alcançar o sucesso do nosso build.

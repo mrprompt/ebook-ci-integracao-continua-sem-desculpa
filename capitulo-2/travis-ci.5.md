@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # <a name="configurando-nodejs"></a> Nodejs
 
 Neste exemplo, mostro como faço para rodar um projeto, que utiliza algumas bibliotecas específicas e necessitam de

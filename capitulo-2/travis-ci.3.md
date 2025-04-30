@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # <a name="configurando"></a> Configurando
 
 Tão simples quanto o cadastro é a configuração do **Travis-CI** para cada projeto.

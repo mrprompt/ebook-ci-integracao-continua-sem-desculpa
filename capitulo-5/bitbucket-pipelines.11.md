@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ## Cache
 
 Um dos maiores problemas na integração contínua, é a instalação de todas as dependências do 

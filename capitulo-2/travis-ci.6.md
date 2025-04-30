@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # <a name="configurando-angularjs"></a> Angularjs
 
 Para os projetos em **Angular**, gosto muito de utilizar o **Protractor** pela sua praticidade de configuração.

@@ -1,3 +1,6 @@
+---
+layout: page
+---
 #### <a name="configurando-php"></a> PHP
 
 ```

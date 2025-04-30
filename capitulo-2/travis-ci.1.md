@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # Apresentação
 
 Com disse, o Travis é o mais escolhido nos projetos open source, justamente pela sua facilidade para

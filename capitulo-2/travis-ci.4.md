@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # <a name="configurando-php"></a> PHP
 
 Abaixo um exemplo básico, de um projeto feito em PHP, testando a compatibilidade com várias versões e permitindo a falha

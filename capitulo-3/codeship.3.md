@@ -1,3 +1,6 @@
+---
+layout: page
+---
 ### <a name="configurando"></a> Configurando
 
 A configuração do **CodeShip** é toda por sua interface, que aliás, é muito simples e resumida, sem muitas surpresas.

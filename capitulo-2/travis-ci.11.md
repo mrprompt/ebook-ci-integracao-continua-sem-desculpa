@@ -1,3 +1,6 @@
+---
+layout: page
+---
 # <a name="mais-informacoes"></a> Mais Informações
 
 Se você estiver interessado em obter mais informações sobre o **Travis-CI**, fique a vontade para comentar
