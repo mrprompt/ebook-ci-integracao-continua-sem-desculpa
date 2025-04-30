@@ -2,7 +2,7 @@
 layout: home
 ---
 
-# Um guia prático das principais ferramentas de Integração Contínua, para todos os gostos e bolsos
+## Um guia prático das principais ferramentas de Integração Contínua, para todos os gostos e bolsos
 
 Neste guia você terá um passo a passo de como instalar e configurar de maneira fácil e rápida:
 
