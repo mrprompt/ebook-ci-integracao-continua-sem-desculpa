@@ -2,7 +2,7 @@
 layout: home
 ---
 
-Um guia prático das principais ferramentas de Integração Contínua, para todos os gostos e bolsos.
+# Um guia prático das principais ferramentas de Integração Contínua, para todos os gostos e bolsos
 
 Neste guia você terá um passo a passo de como instalar e configurar de maneira fácil e rápida:
 
@@ -20,7 +20,7 @@ Rodar testes e verificar se tudo se integra facilmente é fundamental em qualque
 processo bem massante se feito manualmente pelo gerente de projetos ou dev sênior do time, independente de quem
 o faça, repetir esta tarefa inúmeras vezes é inviável.
 
-### Porque utilizar CI
+## Porque utilizar CI
 
 Configurar um ambiente de integração - e entrega - contínua é algo mais que importante nos dias atuais.
 
@@ -32,7 +32,7 @@ Independente se você é um daqueles que possui scripts para tudo, um defensor f
 faço a mão que é mais garantido" ou nunca utilizou uma ferramenta de integração contínua, este ebook é
 justamente para você.
 
-### Porque EU utilizo CI
+## Porque EU utilizo CI
 
 Eu sou muito chato na hora de desenvolver - na verdade eu sou chato em qualquer hora, mas não preciso
 ficar gerando provas contra mim -, principalmente com alguns ítens que defendo serem de extrema
@@ -72,18 +72,18 @@ aficcionado por código aberto e software livre, acredito que vivo num paralelo
 onde todo conhecimento deve ser livre e compartilhado, e todo código deve ser
 aberto.
 
-### Ajude a manter este livro
+## Ajude a manter este livro
 
 Todo o conteúdo e os fontes deste livro são abertos e disponível para quem
 quiser olhar, porém, algumas ferramentas são pagas, e para que este estudo
 e criação de material não se torne extremamente oneroso, o autor deste
 ebook disponibiliza uma carteira para depósitos em Bitcoins.
 
-#### Doar em Bitcoin
+### Doar em Bitcoin
 
 3PUY7FdfUC2t3yQ2hxhbNvzvuXpQoYGqht
 
-#### Doar por outros meios de pagamento
+### Doar por outros meios de pagamento
 
 Entre em contato com o autor: [mrprompt@gmail.com](mailto:mrprompt@gmail.com)
 
