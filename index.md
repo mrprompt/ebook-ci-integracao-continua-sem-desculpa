@@ -2,11 +2,9 @@
 layout: home
 ---
 
-## Um guia prático das principais ferramentas de Integração Contínua, para todos os gostos e bolsos
+![Robô de CI](assets/robo.jpg)
 
 Neste guia você terá um passo a passo de como instalar e configurar de maneira fácil e rápida:
-
-![Robô de CI](assets/robo.jpg)
 
 Manter um ambiente de testes e integração contínua, é imprescindível para qualquer projeto ou desenvolvedor
 sério, que queira manter sua produtividade em alta e foco na entrega de valor de cada demanda, e não em tarefas
