@@ -3,8 +3,6 @@ layout: page
 title: Jenkins
 ---
 
-## Integração Contínua com Jenkins
-
 Acho que simplesmente, o mais famoso e utilizado de todos - e também, o mais complicado de se manter.
 
 <img src="assets/00-logo.png" class="img img-responsive img-thumbnail pull-right" alt="Jenkins Logo" title="Jenkins" width="185" height="256">

@@ -3,8 +3,6 @@ layout: page
 title: Pipelines
 ---
 
-## Integração Contínua com Bitbucket Pipelines
-
 <img src="assets/pipelines.png" class="img img-responsive img-thumbnail pull-right" alt="Bitbucket Pipelines Logo" title="Pipelines" width="400" height="335">
 
 Parando de enrolação, vamos ao que interessa, [Pipelines](https://confluence.atlassian.com/bitbucket/bitbucket-pipelines-792496469.html)!
