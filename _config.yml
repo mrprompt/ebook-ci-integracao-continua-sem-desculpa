@@ -27,7 +27,11 @@ minima:
       url: "https://www.instagram.com/onegaothiago/"
   nav_pages:
     - intro.md
-
+    - codeship.md
+    - jenkins.md
+    - travis-ci.md
+    - pipelines.md
+    - finalizando.md
     
 author:
   name: mrprompt
