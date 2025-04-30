@@ -6,6 +6,7 @@ title: CodeShip
 ## Integração Contínua com CodeShip
 
 ![Codeship Logo](../assets/codeship.png)
+
 Mas ao contrário do [Travis-CI](https://www.travis-ci.org), o **CodeShip** nos permite adicionar repositórios privados sem custo algum - mas o limite
 é de 5 repositórios - assim como ilimitados repositórios de projetos de código fonte aberto.
 
