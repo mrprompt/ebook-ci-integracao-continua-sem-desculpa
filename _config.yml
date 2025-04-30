@@ -30,7 +30,6 @@ minima:
     - jenkins.md
     - travis-ci.md
     - pipelines.md
-    - finalizando.md
     
 author:
   name: mrprompt
