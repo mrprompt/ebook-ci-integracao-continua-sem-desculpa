@@ -26,12 +26,7 @@ minima:
       icon: instagram
       url: "https://www.instagram.com/onegaothiago/"
   nav_pages:
-    - capitulo-1/README.md
-    - capitulo-2/README.md
-    - capitulo-3/README.md
-    - capitulo-4/README.md
-    - capitulo-5/README.md
-    - capitulo-6/README.md
+    - intro.md
 
     
 author:

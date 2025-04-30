@@ -13,4 +13,4 @@ Com poucas linhas, é possível subir seu ambiente de testes e começar a testar
 disparar gatilhos no caso de sucesso ou falhas. Fora o "badge" bacana que tu pode colocar no _README_ do
 projeto ;)
 
-<img src="assets/travis-ci.png" class="img img-responsive" alt="Travis-CI Screenshot">
+![Travis-CI Screenshot](assets/travis-ci.png)
